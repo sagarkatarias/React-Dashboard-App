@@ -41,7 +41,7 @@ This is a single-page React application that provides a customizable dashboard i
 
     - Certain widgets (Weather, News) require API keys to function.
     - Create a file named `.env` in the root directory of the project (the same level as `package.json`).
-    - Add the following lines to the `.env` file, replacing `<your_key_here>` with your actual API keys obtained from the respective services:
+    - Add the following lines to the `.env` file, replacing `<your_key_here>` with your actual API keys obtained from the respective services (Openweathermap API & News API ):
       ```dotenv
       VITE_OPENWEATHERMAP_API_KEY=<your_openweathermap_api_key_here>
       VITE_NEWSAPI_API_KEY=<your_newsapi_api_key_here>
